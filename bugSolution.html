@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Corrected HTML</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <p>This is another paragraph.</p>
+  <div id="myDiv"></div>
+  <script>
+    // Sanitizing user input before using innerHTML using textContent
+    let userInput = prompt("Enter some text:");
+    let sanitizedInput = document.createElement('div');
+    sanitizedInput.textContent = userInput;
+    document.getElementById("myDiv").appendChild(sanitizedInput);
+  </script>
+</body>
+</html>
