@@ -1,0 +1,1 @@
+This repository demonstrates a common yet easily overlooked security vulnerability in HTML: improper usage of innerHTML with unsanitized user input.  The `bug.html` file shows the vulnerable code, while `bugSolution.html` presents the corrected version.
